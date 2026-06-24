@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #AEC3B0;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .Kartu-Ucapan {
+            background-color: #6B9071;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 450px;
+            animation: muncul 1.5s ease-out;
+        }
+        h1 {
+            color: #E3EED4;
+            margin-bottom: 25px;
+        }
+        .nama {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #0F2A1D;
+            background-color: #E3EED4;
+            padding: 10px 15px;
+            border-radius: 30px;
+            display: inline-block;
+        }
+        p {
+            color: #AEC3B0;
+            line-height: 1.5;
+        }
+        .tombol {
+            background-color: #0F2A1D;
+            color: #E3EED4;
+            border: 1px solid #E3EED4;
+            padding: 12px 25px;
+            font-size: 1rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .tombol:hover {
+            background-color: #375534;
+            transform: scale(1.05);
+        }
+        @keyframes muncul {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="Kartu-Ucapan">
+        <h1>SELAMAT SEMHASSS!</h1>
+        <div class="nama">Maudya Zalfika Widinuarti, S.Arsl. (Coming Soon)</div>
+
+        <p>Belum selesai sihhh, tapi setidaknya ya kann</p>
+
+        <button class="tombol" onclick="alert('Cieee yg udah semhas!! dengar-dengar katanya Wingstop menunggu')">Klik di sini</button>
+    </div>
+    
+</body>
+</html>
